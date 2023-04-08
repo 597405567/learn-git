@@ -1,0 +1,7 @@
+关联远程github库：
+git remote add origin git@github.com:597405567/learn-git.git
+origin 是默认的远程库名字
+
+关联后推送master分支所有内容：
+git push -u origin master
+只有第一次推送需要添加-u
